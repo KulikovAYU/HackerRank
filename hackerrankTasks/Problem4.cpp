@@ -1,3 +1,5 @@
+#define OFF
+#ifndef OFF
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -65,3 +67,5 @@ int main() {
 
 	return 0;
 }
+
+#endif
